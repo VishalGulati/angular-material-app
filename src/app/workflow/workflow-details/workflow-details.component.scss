@@ -1,0 +1,14 @@
+.details-box {
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
+}
+
+.text-grey {
+  background-color: #d3d3d3;
+}
+
+.mat-slide-toggle.mat-checked .mat-slide-toggle-thumb {
+  background-color: green !important;
+}
