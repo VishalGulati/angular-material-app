@@ -11,3 +11,29 @@
 mat-form-field {
   margin-right: 12px;
 }
+
+mat-panel-title {
+  position: relative;
+}
+
+.delete-workflow {
+  position: absolute;
+  right: 10px;
+  color: orangered;
+  font-size: 1.5rem;
+}
+
+mat-list-item span {
+  position: absolute;
+  right: 20px;
+  .fa-edit,
+  .fa-trash {
+    margin-right: 10px;
+  }
+}
+
+.add-row {
+  text-align: right;
+  font-size: 1.25rem;
+  color: greenyellow;
+}

@@ -1,3 +1,7 @@
+header {
+  background: #d3cce3; /* fallback for old browsers */
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -7,6 +11,9 @@ ul {
 
 li {
   float: left;
+}
+li:last-child {
+  float: right;
 }
 
 li a {
@@ -27,4 +34,18 @@ li a:hover:not(.active) {
   text-align: left;
   font-size: 3rem;
   margin: 0.5rem 0;
+  background: #00b4db; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0083b0,
+    #00b4db
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0083b0,
+    #00b4db
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  padding: 5px;
+  margin: 0;
 }

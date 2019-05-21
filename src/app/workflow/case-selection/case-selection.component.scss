@@ -1,5 +1,10 @@
 .selection-container {
   text-align: left;
+
+  button {
+    margin-left: 10px;
+    float: right;
+  }
 }
 
 mat-expansion-panel-header {

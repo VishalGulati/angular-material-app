@@ -4,15 +4,30 @@
       <mat-expansion-panel-header>
         <mat-panel-title>
           Case Timestamp 1
+          <i class="fa fa-trash delete-workflow" aria-hidden="true"></i>
         </mat-panel-title>
       </mat-expansion-panel-header>
 
       <mat-list role="list">
-        <mat-list-item role="listitem">Case Operation 1</mat-list-item>
-        <mat-list-item role="listitem">Case Operation 2</mat-list-item>
-        <mat-list-item role="listitem">Case Operation 3</mat-list-item>
+        <mat-list-item role="listitem">Case Operation 1
+          <span>
+          <i class="far fa-edit"></i>
+          <i class="fa fa-trash" aria-hidden="true"></i>
+          </span>
+        </mat-list-item>
+        <mat-list-item role="listitem">Case Operation 2
+          <span>
+          <i class="far fa-edit"></i>
+          <i class="fa fa-trash" aria-hidden="true"></i>
+          </span>
+        </mat-list-item>
+        <mat-list-item role="listitem">Case Operation 3
+          <span>
+          <i class="far fa-edit"></i>
+          <i class="fa fa-trash" aria-hidden="true"></i>
+          </span></mat-list-item>
       </mat-list>
-
+      <div class="add-row"><i class="fa fa-plus" aria-hidden="true"></i></div>
       <mat-action-row>
         <button mat-button color="primary" (click)="nextStep()">Next</button>
       </mat-action-row>
@@ -22,13 +37,18 @@
       <mat-expansion-panel-header>
         <mat-panel-title>
           Case Timestamp 2
+          <i class="fa fa-trash delete-workflow" aria-hidden="true"></i>
         </mat-panel-title>
       </mat-expansion-panel-header>
 
       <mat-list role="list">
-        <mat-list-item role="listitem">Case Operation 1</mat-list-item>
+        <mat-list-item role="listitem">Case Operation 1
+          <span>
+          <i class="far fa-edit"></i>
+          <i class="fa fa-trash" aria-hidden="true"></i>
+          </span></mat-list-item>
       </mat-list>
-
+      <div class="add-row"><i class="fa fa-plus" aria-hidden="true"></i></div>
       <mat-action-row>
         <button mat-button color="warn" (click)="prevStep()">Previous</button>
         <button mat-button color="primary" (click)="nextStep()">Next</button>
@@ -39,15 +59,24 @@
       <mat-expansion-panel-header>
         <mat-panel-title>
           Case Timestamp 3
+          <i class="fa fa-trash delete-workflow" aria-hidden="true"></i>
         </mat-panel-title>
       </mat-expansion-panel-header>
 
 
       <mat-list role="list">
-        <mat-list-item role="listitem">Case Operation 1</mat-list-item>
-        <mat-list-item role="listitem">Case Operation 2</mat-list-item>
+        <mat-list-item role="listitem">Case Operation 1
+          <span>
+          <i class="far fa-edit"></i>
+          <i class="fa fa-trash" aria-hidden="true"></i>
+          </span></mat-list-item>
+        <mat-list-item role="listitem">Case Operation 2
+          <span>
+          <i class="far fa-edit"></i>
+          <i class="fa fa-trash" aria-hidden="true"></i>
+          </span></mat-list-item>
       </mat-list>
-
+      <div class="add-row"><i class="fa fa-plus" aria-hidden="true"></i></div>
       <mat-action-row>
         <button mat-button color="warn" (click)="prevStep()">Previous</button>
         <button mat-button color="primary" (click)="nextStep()">End</button>
