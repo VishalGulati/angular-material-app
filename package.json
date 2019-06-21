@@ -10,7 +10,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy":
+      "ng build --prod --base-href https://vishalgulati.github.io/angular-material-app/ && angular-cli-ghpages --branch gh-pages"
   },
   "private": true,
   "dependencies": {
