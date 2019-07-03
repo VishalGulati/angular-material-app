@@ -1,5 +1,6 @@
 # angular-material-app
-Angular7 app using Material Design for the designing built for PoC
+Angular7 app using Material Design for the designing built for hands-on with Angular7.
+
 To run app:
 
 1. Take clone of the repo.
